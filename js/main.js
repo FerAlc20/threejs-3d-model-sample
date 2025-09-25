@@ -74,7 +74,7 @@ scene.add(spotLight);
 // ----- CARGA DEL MODELO GLTF -----
 // setPath define el directorio base desde donde GLTFLoader buscará los archivos
 // Nota: al cargar "scene.gltf", Three también buscará automáticamente sus .bin y texturas relativas a este path
-const loader = new GLTFLoader().setPath('/millennium_falcon/');
+const loader = new GLTFLoader().setPath('./millennium_falcon/');
 
 loader.load(
   'scene.gltf',
